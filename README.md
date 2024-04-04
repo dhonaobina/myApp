@@ -66,3 +66,44 @@ To have Node.js and npm installed on your system before creating an Angular app 
 
 **Templates**
 - *Templates provide the framework that provides Angular the instructions to render components*
+
+## Deep Diving DIRECTIVES
+- One of the core features in Angular
+- Directives allow AngularJS the scalability of extending the HTML with attributes
+- Built-in directive that can be used right away and can provide various functionality to applications
+- Attaches behaviour to a DOM element in the application
+- Directives can provide the following
+    - Replace or exten the HTML element in the application
+    - Behaviours
+    - Data binding to the scope of the application
+### Core Directives
+**Application**
+`ng-app` 
+- *designates the root element of the application, and its usually placed on either html or body tag*
+`ng-controller`
+- *binds a view to controller class which essentially limits the scope of a controller to the current view and its parent, if any.*
+  
+**Binding**
+`ng-bind`
+- *instructs Angular to populate the contents of an HTML element, with the value of the given expression. Using double curly braces {} is essentially the equivalent of using `ng-bind`*
+`ng-model`
+- *is a directive that binds an element such as input or select element to a given scope property, serving as the key directive behind Angular's MVVM architecture.*
+`ng-init`
+- *enables the evaluation of a given expression in the current scope*
+`ng-src`
+- *enables evaluation of expressions within the source attribute of lements, such as the image element*
+`ng-style`
+- *its a directive enables applying inline CSS styles based on the evaluation of an expression*
+
+**Form**
+`ng-minlength*
+- *enforces minlength value*
+`ng-maxlength*
+- *enforces maxlength value*
+`ng-required`
+- *set the required attribute to an HTML element based on the evaluation of a Boolean expression.*
+`ng-list`
+- *converts a value into a delimited string or array of strings
+Other form directives:
+`ng-true-value`, `ng-fales-value`, `ng-options` and `ng-submit`
+
