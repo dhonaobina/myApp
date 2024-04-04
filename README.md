@@ -104,6 +104,7 @@ To have Node.js and npm installed on your system before creating an Angular app 
 - *its a directive enables applying inline CSS styles based on the evaluation of an expression*
 
 **Form**
+
 `ng-minlength`
 - *enforces minlength value*
   
