@@ -137,3 +137,31 @@ To have Node.js and npm installed on your system before creating an Angular app 
 `ng-selected`
 - *sets the selected attribute on a given element based on the evaluation of an expression*
 
+**Templates**
+
+`ng-disabled`
+- *sets the disabled attribute on the given element*
+
+`ng-hide`
+- *hides an element based on the evaluation of an expression*
+
+`ng-show`
+- *displays an element based on the evaluation of an expression*
+
+`ng-if`
+- *pins an element to the document object model, based onf the evaluation of an expression*
+
+`ng-repeat`
+- *initialized a given template once per element within a collection where eah instance has its own scope*
+
+`ng-switch`
+- *applies an template based on the evaluation of a scope expression*
+
+`ng-view`
+- *includes the template of the current route into the page layout*
+
+`ng-include`
+- *appends a partial view template as a child element to the element on which the directive is placed*
+
+
+
