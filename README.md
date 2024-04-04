@@ -25,3 +25,28 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Building Blocks of an Angular Application
+**Components**
+- *Controls a view*
+
+**Data Binding**
+- *Used to coordinate parts of a template with parts of a component*
+
+**Dependency injection**
+- *Method of provisioning a new instance of a class with all the necessary dependencies that are needed*
+
+**Directives**
+- *The DOM is configured with the instructions that are provided by the directive*
+
+**Metadata**
+- *Metadata instructs Angular in the process of creating a class*
+
+**Modules**
+- *Assist in managing an application into united blocks of functionality*
+
+**Services**
+- *Can be anything that the application needs in terms of values, functions and features*
+
+**Templates**
+- *Templates provide the framework that provides Angular the instructions to render components*
