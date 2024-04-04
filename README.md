@@ -163,5 +163,13 @@ To have Node.js and npm installed on your system before creating an Angular app 
 `ng-include`
 - *appends a partial view template as a child element to the element on which the directive is placed*
 
+**Custom Directives**
+- *used to extend the functionality of HTML-like directives*
+-  *difference is the customer directives replace the element that is activated*
+-  **WHY USE CUSTOMER DIRECTIVES?**
+      - *Integrate with other third-party DOM APIs*
+      - *Simplify code even more*
+      - *Apply custom validation*
+
 
 
