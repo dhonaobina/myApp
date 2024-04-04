@@ -115,8 +115,25 @@ To have Node.js and npm installed on your system before creating an Angular app 
 - *set the required attribute to an HTML element based on the evaluation of a Boolean expression.*
   
 `ng-list`
-- *converts a value into a delimited string or array of strings
+- *converts a value into a delimited string or array of strings*
   
-Other form directives:
+**Other Form directives:**
 `ng-true-value`, `ng-fales-value`, `ng-options` and `ng-submit`
+
+**Operation**
+
+`ng-changed`
+- *binds the onChange event listener and corresponding handler*
+
+`ng-checked`
+- *enabling or disabling a checkbox input element based on the evaluation of an expression*
+
+`ng-click`
+- *binds the onClick event listener and corresponding handler*
+
+`ng-href`
+- *enables the evaluation of an expression within the href attribute of an element, like an anchor tag*
+
+`ng-selected`
+- *sets the selected attribute on a given element based on the evaluation of an expression*
 
