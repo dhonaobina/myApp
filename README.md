@@ -2,6 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
 
+## Install Angular CLI globally using npm
+
+Run `npm install -g @angular/cli`
+
+## Create a new Angular project
+
+Run `ng new myNewAPP`
+
+## Navigate to your project directory
+
+Run `cd myNewAPP`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
@@ -25,6 +37,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Remember
+
+To have Node.js and npm installed on your system before creating an Angular app and make sure you have the correct versions.
 
 ## Building Blocks of an Angular Application
 **Components**
