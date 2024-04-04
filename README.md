@@ -170,6 +170,33 @@ To have Node.js and npm installed on your system before creating an Angular app 
       - *Integrate with other third-party DOM APIs*
       - *Simplify code even more*
       - *Apply custom validation*
+ 
+### Getting to Know Angular Services ###
+
+**What are Angular services?**
+- Singletons
+    - Designed to carry out specific tasks
+- Each service in Angular is instantiated lazily
+- Ability to make a service or use one of the built-in services
+    - AngularJS includes over 30 different built-in services
+- Is a function/object available for the application it applies to and only that application
+- There are core functions that are designed to create generic services
+- To use a service, add it as a dependency to the component
+  - *Controller*
+  - *Directive*
+  - *Filter*
+  - *Service*
+- Registering services
+  - *Services are normally registerd to modules*
+    - Using the Module API
+    - 
+### Example of a built-in service in Angular
+
+  - `$Location`
+    *essentially makes a URL available to the application, allowing us to change the URL or observe different parts of the URL such as the port or host*
+    
+  - `$HTTP`
+      *enables us to communicate with backend servers by making `GET`,`POST`,`PUT` and `DELETE` requests*
 
 
 
